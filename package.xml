@@ -6,19 +6,19 @@
 		<packagedescription><![CDATA[Simple yet flexible JavaScript charting for designers & developers.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Einfache und dennoch flexible JavaScript-Diagramme für Designer und Entwickler.]]></packagedescription>
 		
-		<version><![CDATA[3.7.1]]></version>
-		<date><![CDATA[2022-02-12]]></date>
+		<version><![CDATA[4.4.6]]></version>
+		<date><![CDATA[2024-10-31]]></date>
 		
 		<license language="de"><![CDATA[MIT <https://github.com/chartjs/Chart.js/blob/master/LICENSE.md>]]></license>
 		<packageurl>https://github.com/chartjs/Chart.js</packageurl>
 	</packageinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="3.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+		<requiredpackage minversion="6.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
-		<excludedpackage version="6.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+		<excludedpackage version="6.2.0 dev 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
 	</excludedpackages>
 	
 	<authorinformation>
@@ -32,7 +32,7 @@
 		<instruction type="acpTemplate" />
 	</instructions>
 	
-	<instructions type="update" fromversion="2.9.4">
+	<instructions type="update" fromversion="3.7.1">
 		<instruction type="file" />
 		<instruction type="template" />
 		<instruction type="acpTemplate" />
